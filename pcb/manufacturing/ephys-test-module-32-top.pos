@@ -1,0 +1,13 @@
+### Footprint positions - created on 2025-04-07T23:02:26+0100 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                                   PosX       PosY       Rot  Side
+C1        100nF            C_0402_1005Metric                      11.7000    11.3000  -90.0000  top
+J4        2x2_header       PinHeader_2x02_P2.54mm_Vertical_SMD    49.9500    11.3000  180.0000  top
+J5        A79026-001       A79026-001                             49.9500    36.2800  -90.0000  top
+R1        1k               R_0402_1005Metric                      13.3000    15.9000    0.0000  top
+R2        1k               R_0402_1005Metric                      16.6000    18.2000    0.0000  top
+R3        1k               R_0402_1005Metric                      15.2000    17.0000    0.0000  top
+U1        AT24C64D-SSHM-T  SOIC-8_3.9x4.9mm_P1.27mm               15.2000    11.3000   90.0000  top
+## End

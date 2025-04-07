@@ -636,7 +636,7 @@
           "group_by": false,
           "label": "OEPS DESC",
           "name": "OEPS DESC",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
