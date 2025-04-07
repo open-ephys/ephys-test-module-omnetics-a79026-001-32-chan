@@ -7614,6 +7614,14 @@
 				(hide yes)
 			)
 		)
+		(property "OEPS DESC" "CONNECTOR:   OMNETICS NANO SOCKET 36POS VERTICAL (OEPS D00 001)   [A79026-001] [SMD]"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "52af11a7-ea68-45bd-9e17-f1e87b689049")
 		)
@@ -7800,6 +7808,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   HEADER SMD 2x2POS 2.54MM   [M20-8760242] [SMD]"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

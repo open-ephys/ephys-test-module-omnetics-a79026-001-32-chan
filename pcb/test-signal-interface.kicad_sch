@@ -9766,6 +9766,14 @@
 				(hide yes)
 			)
 		)
+		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 80POS SMD GOLD   [BSE-040-01-F-D-A-TR] [SMD]"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f94789a6-3cef-49c3-abc1-87722bc40345")
 		)
@@ -10169,6 +10177,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 80POS SMD GOLD   [BSE-040-01-F-D-A-TR] [SMD]"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10708,6 +10724,14 @@
 				(hide yes)
 			)
 		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e80b911-0577-487a-8897-a0e3ab560e5e")
 		)
@@ -10811,6 +10835,14 @@
 				(hide yes)
 			)
 		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 69.85 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bb1d7e5-cae1-4ea5-9a8a-14168b3b7085")
 		)
@@ -10912,6 +10944,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11142,6 +11182,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [AT24C64D-SSHM-T] [8-SOIC]"
+			(at 107.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11606,6 +11654,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CAPACITOR:   SMD CER 0402 100nF 25V ±10% X7R (OEPS H02 001)   [C1005X7R1E104K050BB] [SMD]"
+			(at 115.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
