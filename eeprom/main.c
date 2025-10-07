@@ -22,13 +22,13 @@ const uint8_t channel_map_32m[32] = // Taken from PCB schematic
    {47, 46, 45, 44, 43, 42, 41, 40, 72, 73, 74, 75, 76, 77, 78, 79,
     80, 81, 82, 83, 84, 85, 86, 87, 55, 54, 53, 52, 51, 50, 49, 48};
     
-const uint8_t channel_map_16b[32] = // Taken from PCB schematic
+const uint8_t channel_map_16b[32] = // first positive channels then negative
   {47, 45, 43, 41, 72, 74, 76, 78, 80, 82, 84, 86, 55, 53, 51, 49, 
-   46, 44, 42, 40, 73, 75, 79, 81, 83, 85, 87, 54, 52, 50, 48};
+   46, 44, 42, 40, 73, 75, 77, 79, 81, 83, 85, 87, 54, 52, 50, 48};
 
 const map_config_t maps[] = {
-    {"Omnetics 32ch monopolar", 32, channel_map_32m},
-    {"Omnetics 16ch bipolar", 32, channel_map_16b}
+    {"32ch monopolar", 32, channel_map_32m},
+    {"16ch bipolar", 32, channel_map_16b}
 };
 
 const uint8_t num_maps = sizeof(maps) / sizeof(maps[0]);
