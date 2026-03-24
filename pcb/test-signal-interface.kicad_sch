@@ -9749,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSE-040-01-X-D-A"
+		(property "MPN" "BSE-040-01-F-D-A-TR"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -10164,7 +10164,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSE-040-01-X-D-A"
+		(property "MPN" "BSE-040-01-F-D-A-TR"
 			(at 196.85 76.2 0)
 			(effects
 				(font
