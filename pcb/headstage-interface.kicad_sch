@@ -8677,7 +8677,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "_footprint Lib:A79026-001"
@@ -9004,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Value" "2x2 header"
+		(property "Value" "M20-8760242"
 			(at 167.64 135.89 0)
 			(effects
 				(font

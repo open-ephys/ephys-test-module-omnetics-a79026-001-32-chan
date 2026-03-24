@@ -3373,18 +3373,6 @@
 		(uuid "77b16ac2-df53-4982-bf61-7ee0165687d0")
 	)
 	(junction
-		(at 186.69 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78e86c73-d5ef-4c51-9111-76b3a8328b39")
-	)
-	(junction
-		(at 204.47 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88681f89-c520-4813-85db-a21fa73e247a")
-	)
-	(junction
 		(at 99.06 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3409,12 +3397,6 @@
 		(uuid "a31b6aac-b103-493f-aa8f-ff964113a4bf")
 	)
 	(junction
-		(at 186.69 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7de3e7a-7fb2-4bc9-a7cf-1a8d23b348bb")
-	)
-	(junction
 		(at 204.47 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3433,12 +3415,6 @@
 		(uuid "c6382c21-524c-462d-a885-c663f2d4f947")
 	)
 	(junction
-		(at 204.47 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca5890d7-0c3d-4a0f-9836-228a43c5c6de")
-	)
-	(junction
 		(at 204.47 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3455,6 +3431,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb6660dc-882a-4c30-a4b4-77c2c3cbbeee")
+	)
+	(no_connect
+		(at 189.23 127)
+		(uuid "1262ec24-87f9-4038-bb7c-0a54e313da44")
+	)
+	(no_connect
+		(at 189.23 124.46)
+		(uuid "2398b166-7f37-40ea-b247-5a569f7de1be")
+	)
+	(no_connect
+		(at 201.93 127)
+		(uuid "8e2ada2f-20af-43ec-b984-9b03bec0b6a2")
+	)
+	(no_connect
+		(at 201.93 124.46)
+		(uuid "a887d92b-8b4f-4846-aa99-cb365177abd9")
 	)
 	(bus_entry
 		(at 71.12 101.6)
@@ -4680,7 +4672,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 121.92) (xy 186.69 124.46)
+			(xy 186.69 121.92) (xy 186.69 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4770,16 +4762,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 124.46) (xy 186.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13991568-15fc-45a0-9c42-70dd986bb815")
-	)
-	(wire
-		(pts
 			(xy 73.66 63.5) (xy 83.82 63.5)
 		)
 		(stroke
@@ -4807,16 +4789,6 @@
 			(type default)
 		)
 		(uuid "169916b6-7ce4-47b3-8840-2284dbebb134")
-	)
-	(wire
-		(pts
-			(xy 204.47 121.92) (xy 204.47 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17364ede-c9cc-467d-83dc-6553a39a276b")
 	)
 	(bus
 		(pts
@@ -5778,16 +5750,6 @@
 		)
 		(uuid "58a7584f-ad77-43d4-8f58-9a27f489aa4c")
 	)
-	(wire
-		(pts
-			(xy 186.69 129.54) (xy 186.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0caa97-5d8e-4e8f-9a4c-cc9b507a4861")
-	)
 	(bus
 		(pts
 			(xy 71.12 76.2) (xy 71.12 78.74)
@@ -5950,7 +5912,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 204.47 129.54)
+			(xy 204.47 121.92) (xy 204.47 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6048,16 +6010,6 @@
 		)
 		(uuid "631fabfc-d162-45be-89c8-002b85b765c9")
 	)
-	(wire
-		(pts
-			(xy 201.93 124.46) (xy 204.47 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "633f3f97-2bc6-4db2-b528-c9529e64f31d")
-	)
 	(bus
 		(pts
 			(xy 175.26 35.56) (xy 175.26 38.1)
@@ -6067,16 +6019,6 @@
 			(type default)
 		)
 		(uuid "63459810-f17c-45a7-ac6d-cd4c2410ef60")
-	)
-	(wire
-		(pts
-			(xy 204.47 124.46) (xy 204.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634d8333-5f82-47d8-9b5e-1fee32d529b9")
 	)
 	(wire
 		(pts
@@ -6470,16 +6412,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 127) (xy 204.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f4d494f-e03a-49b2-bcc9-db06ae2d8f94")
-	)
-	(wire
-		(pts
 			(xy 201.93 83.82) (xy 213.36 83.82)
 		)
 		(stroke
@@ -6787,16 +6719,6 @@
 			(type default)
 		)
 		(uuid "9cf6425b-a6ac-40c8-8bc3-49435788f3f6")
-	)
-	(wire
-		(pts
-			(xy 186.69 127) (xy 189.23 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d26f37e-565d-429b-8b58-abbfcad4443f")
 	)
 	(wire
 		(pts
@@ -7227,16 +7149,6 @@
 			(type default)
 		)
 		(uuid "c11d7a90-9cbe-44e3-b9cd-71aadc235d26")
-	)
-	(wire
-		(pts
-			(xy 186.69 124.46) (xy 186.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ec5f06-51e5-4bcf-9638-81ecf81ac196")
 	)
 	(wire
 		(pts
@@ -9701,7 +9613,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "_footprint Lib:SAMTEC_BSE-040-01-X-D-A"
@@ -10116,7 +10027,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "_footprint Lib:SAMTEC_BSE-040-01-X-D-A"
@@ -10663,7 +10573,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10776,7 +10685,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10889,7 +10797,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -11138,7 +11045,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
