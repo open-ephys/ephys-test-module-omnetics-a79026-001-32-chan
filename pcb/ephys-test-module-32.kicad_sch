@@ -10,7 +10,7 @@
 		(company "Open Ephys, Inc.")
 	)
 	(lib_symbols
-		(symbol "_symbol Lib:OEPS-SN"
+		(symbol "open-ephys:OEPS-SN"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -255,7 +255,7 @@
 		(uuid "e4d7d82f-ed87-4b23-b137-96042c3400cb")
 	)
 	(symbol
-		(lib_id "_symbol Lib:OEPS-SN")
+		(lib_id "open-ephys:OEPS-SN")
 		(at 271.78 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -282,7 +282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "_footprint Lib:OEPS_SN-STICKER-8x20mm"
+		(property "Footprint" "open-ephys:OEPS_SN-STICKER-8x20mm"
 			(at 271.78 165.1 0)
 			(effects
 				(font

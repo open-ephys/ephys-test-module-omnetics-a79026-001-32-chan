@@ -1,8 +1,12 @@
-### Footprint positions - created on 2025-04-07T23:02:26+0100 ###
-### Printed by KiCad version 9.0.0
+### Footprint positions - created on 2026-04-05T23:59:22+0100 ###
+### Printed by KiCad version 9.0.7
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                  Package                       PosX       PosY       Rot  Side
 J2        BSE-040-01-F-D-A-TR  SAMTEC_BSE-040-01-X-D-A    15.0000    37.0000  -90.0000  bottom
 J3        BSE-040-01-F-D-A-TR  SAMTEC_BSE-040-01-X-D-A    85.0000    37.0000  -90.0000  bottom
+RN1       100k                 R_Array_Convex_8x0602      43.9500    34.1500    0.0000  bottom
+RN2       100k                 R_Array_Convex_8x0602      55.9500    34.1500    0.0000  bottom
+RN3       100k                 R_Array_Convex_8x0602      43.9500    39.2250    0.0000  bottom
+RN4       100k                 R_Array_Convex_8x0602      55.9500    39.2000    0.0000  bottom
 ## End

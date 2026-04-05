@@ -8656,7 +8656,8 @@
 	)
 	(symbol
 		(lib_id "_symbol Lib:A79026-001")
-		(at 78.74 92.71 0)
+		(at 81.28 92.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8664,7 +8665,7 @@
 		(dnp no)
 		(uuid "7e66cc0b-df34-4a20-a1ca-16985e69d658")
 		(property "Reference" "J5"
-			(at 80.264 69.088 0)
+			(at 79.756 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,15 +8673,15 @@
 			)
 		)
 		(property "Value" "A79026-001"
-			(at 81.28 118.872 0)
+			(at 78.74 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "_footprint Lib:A79026-001"
-			(at 78.74 92.71 0)
+		(property "Footprint" "jonnew:OMNETICS_A79026-001"
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8699,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8708,7 @@
 			)
 		)
 		(property "MPN" "A79026-001"
-			(at 78.74 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8717,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS070069"
-			(at 77.724 93.218 0)
+			(at 82.296 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8726,7 @@
 			)
 		)
 		(property "OEPS DESC" "CONNECTOR:   OMNETICS NANO SOCKET 36POS VERTICAL (OEPS D00 001)   [A79026-001] [SMD]"
-			(at 78.74 92.71 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
