@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 32 Channel (Omnetics A79025-001)")
-		(rev "A")
+		(rev "B")
 		(company "Open Ephys, Inc.")
 	)
 	(lib_symbols

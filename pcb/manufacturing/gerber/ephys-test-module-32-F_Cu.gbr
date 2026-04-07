@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
-%TF.CreationDate,2026-04-06T00:07:16+01:00*%
-%TF.ProjectId,ephys-test-module-32,65706879-732d-4746-9573-742d6d6f6475,A*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2026-04-07T14:54:37-04:00*%
+%TF.ProjectId,ephys-test-module-32,65706879-732d-4746-9573-742d6d6f6475,B*%
 %TF.SameCoordinates,PX66ff300PY82a7440*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.7) date 2026-04-06 00:07:16*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2026-04-07 14:54:37*
 %MOMM*%
 %LPD*%
 G01*
@@ -30,10 +30,10 @@ G04 Aperture macros list*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
 %TA.AperFunction,SMDPad,CuDef*%
-%ADD10R,3.150000X1.000000*%
+%ADD10RoundRect,0.095000X0.415000X0.095000X-0.415000X0.095000X-0.415000X-0.095000X0.415000X-0.095000X0*%
 %TD*%
 %TA.AperFunction,SMDPad,CuDef*%
-%ADD11RoundRect,0.095000X0.415000X0.095000X-0.415000X0.095000X-0.415000X-0.095000X0.415000X-0.095000X0*%
+%ADD11R,3.150000X1.000000*%
 %TD*%
 %TA.AperFunction,SMDPad,CuDef*%
 %ADD12RoundRect,0.135000X-0.135000X-0.185000X0.135000X-0.185000X0.135000X0.185000X-0.135000X0.185000X0*%
@@ -55,20 +55,6 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
-%TO.P,J4,1,Pin_1*%
-%TO.N,/Headstage Interface/REF*%
-X82598962Y14597386D03*
-%TO.P,J4,2,Pin_2*%
-%TO.N,GND*%
-X87648962Y14597386D03*
-%TO.P,J4,3,Pin_3*%
-%TO.N,/Headstage Interface/REF*%
-X82598962Y12057386D03*
-%TO.P,J4,4,Pin_4*%
-%TO.N,GND*%
-X87648962Y12057386D03*
-%TD*%
-D11*
 %TO.P,J5,1,Pin_1*%
 %TO.N,GND*%
 X50710000Y31160000D03*
@@ -177,6 +163,20 @@ X50710000Y42040000D03*
 %TO.P,J5,36,Pin_36*%
 %TO.N,GND*%
 X49190000Y42040000D03*
+%TD*%
+D11*
+%TO.P,J4,1,Pin_1*%
+%TO.N,/Headstage Interface/REF*%
+X82598962Y14597386D03*
+%TO.P,J4,2,Pin_2*%
+%TO.N,GND*%
+X87648962Y14597386D03*
+%TO.P,J4,3,Pin_3*%
+%TO.N,/Headstage Interface/REF*%
+X82598962Y12057386D03*
+%TO.P,J4,4,Pin_4*%
+%TO.N,GND*%
+X87648962Y12057386D03*
 %TD*%
 D12*
 %TO.P,R3,1*%
