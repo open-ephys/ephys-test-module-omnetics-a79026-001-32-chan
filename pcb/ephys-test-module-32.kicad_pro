@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|163792120|134426267|3e8fb899-ba15-450f-8466-bc42a228472c|c2f5ff73-6f59-4638-aac2-cbf335b99793",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -108,6 +113,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -459,13 +465,18 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "jonnew",
+      "open-ephys",
+      "open-ephys-electrodes"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -511,7 +522,7 @@
       "idf": "",
       "netlist": "",
       "plot": "manufacturing/gerber/",
-      "pos_files": "",
+      "pos_files": "manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -561,10 +572,34 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "TempCo",
+          "name": "TempCo",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -582,7 +617,7 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -591,27 +626,9 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "TempCo",
-          "name": "TempCo",
           "show": false
         },
         {
@@ -628,15 +645,9 @@
         },
         {
           "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "OEPS DESC",
           "name": "OEPS DESC",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -644,7 +655,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${ITEM_NUMBER}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
