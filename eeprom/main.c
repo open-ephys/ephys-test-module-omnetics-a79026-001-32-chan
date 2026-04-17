@@ -8,7 +8,7 @@
 /////////////// Data to be written to EEPROM /////////////////
 const char magic[10] = "open-ephys";
 const uint8_t layout_version[2] = {1, 0};
-const char module_name[32] = "Omnetics 32ch module";
+const char module_name[32] = "Omnetics 32 Ch.";
 const char pcb_rev = 'B';
 
 typedef struct {
@@ -27,8 +27,8 @@ const uint8_t channel_map_16b[32] = // first positive channels then negative
    46, 44, 42, 40, 73, 75, 77, 79, 81, 83, 85, 87, 54, 52, 50, 48};
 
 const map_config_t maps[] = {
-    {"32ch monopolar", 32, channel_map_32m},
-    {"16ch bipolar", 32, channel_map_16b}
+    {"Unipolar 32 Ch.", 32, channel_map_32m},
+    {"Bipolar 16 Ch.", 32, channel_map_16b}
 };
 
 const uint8_t num_maps = sizeof(maps) / sizeof(maps[0]);
