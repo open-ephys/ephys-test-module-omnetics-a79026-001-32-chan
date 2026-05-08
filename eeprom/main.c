@@ -26,9 +26,15 @@ const uint8_t channel_map_16b[32] = // first positive channels then negative
   {47, 45, 43, 41, 72, 74, 76, 78, 80, 82, 84, 86, 55, 53, 51, 49, 
    46, 44, 42, 40, 73, 75, 77, 79, 81, 83, 85, 87, 54, 52, 50, 48};
 
+   
+const uint8_t channel_map_32m_rhs[32] =
+   {72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87,
+    55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40};
+
 const map_config_t maps[] = {
     {"32 Ch. Unipolar", 32, channel_map_32m},
-    {"16 Ch. Bipolar", 32, channel_map_16b}
+    {"16 Ch. Bipolar", 32, channel_map_16b},
+    {"32 Ch. Unipolar RHS", 32, channel_map_32m_rhs}
 };
 
 const uint8_t num_maps = sizeof(maps) / sizeof(maps[0]);
